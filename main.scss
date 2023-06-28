@@ -1,6 +1,9 @@
+@import 'variables';
+@import 'navbar';
+
 .container {
     width: 500px;
     height: 500px;
-    border: 1px solid red;
-    background-color: blueviolet;
+    border: 1px solid $color-secundario;
+    background-color: $color-fondo;
 }
