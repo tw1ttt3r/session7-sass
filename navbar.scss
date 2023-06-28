@@ -1,7 +1,7 @@
 // nesting
 nav {
     width: 100%;
-    background-color: $color-primario;
+    @include fondovioleta;
 
     ul {
         display : flex;
